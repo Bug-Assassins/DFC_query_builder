@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+}
+.sidebar{
+    float: left;
+    position: fixed;
+    height: 100%;
+    width: 150px;
+    background:#b0d3fe;
+    margin-top: 100px;
+}
+.sidebar_ul{
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 25px;
+}
+.sidebar_ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:#7dade7;
+}
+.sidebar_ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    text-align:center;
+    width: 100%;
+}
+.sidebar_ul li:hover{
+    background:#d8ab66;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background:#c49ecf;
+    position: fixed;
+}
+.header h1{
+    margin: auto;
+    vertical-align: central;
+    line-height: 40px;
+    margin-top: 10px;
+    color: gold;
+}
+.header h3{
+    color:#ff0006;
+}
+.content{
+    padding-top: 101px;
+    padding-left: 151px;
+}
+.content h2{
+    text-align: center;
+}
+.qr_tab tr td{
+    border : 1px black solid;
+}
+.res_table thead tr th{
+    max-width: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+.res_table tbody tr td{
+    max-width: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+.res_table{
+    border: 2px solid black;
+    margin: auto;
+}
